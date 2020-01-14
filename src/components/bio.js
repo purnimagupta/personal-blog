@@ -54,11 +54,11 @@ const Bio = () => {
         }}
       />
       <p>
-        <strong>{author}</strong>, who is a full stack developer and technology enthusiast. 
-        Learning and playing with technologies happen to be amongst her many passions.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          Follow me on Twitter
+        I'm <strong>{author}</strong>, a software developer and technology enthusiast. 
+        Would love to live in a world free of hatred and jealousy. We can start with ourselves :)
+        {`  `}
+        <a href={`https://twitter.com/${social.twitter}`} target="_blank">
+          You can react out to me on twitter.
         </a>
       </p>
     </div>

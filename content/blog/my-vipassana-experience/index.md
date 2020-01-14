@@ -56,25 +56,30 @@ This meditation purifies the mind, helping it get rid of any mind related proble
 
 There are a benefits of Vipassana, if practised properly - and plenty of them have been researched in science as well. Though it takes time to tame our untrained mind, the results are inevitable —
 
-**Heightened sensitivity and awareness**
+####**Heightened sensitivity and awareness**
+
 You will start observing small things that might never have caught your attention like rising up and down your tummy belly when you breathe.  You also become aware of positive and negative emotions that manifest themselves from time to time due to some reason or the other.
 
-**Equanimity**
+####**Equanimity**
+
  You start observing your sensations with equanimity - maintaining composure and remaining calm. Yes, that makes all the difference, because soon it starts manifesting itself into other areas of your life. Why?
 
 Because you're training yourself to remain objective. It will become your habit to observe any negativity as soon as it arises, and recognize it for what it is. That way, you will have more control over your actions, rather than blindly reacting to it.
  
 It might be a little difficult to observe your sensations when you’re engulfed by your emotions/pain/anger/hatred/ego. Definitely, but not impossible. It just needs more practice, just like any other activity.
 
-**Changing thought patterns and perspectives**
+####**Changing thought patterns and perspectives**
+
 If you’ve been practising it consistently and as the technique want you to practice it without any dogma. One will definitely start seeing changes in their thought patterns.
 
 It will give you a fresh new perspective on your relationships with your parents, colleagues, partner and with everyone around you. Your shallow views on relationships and friendships change, as you're able to look at things objectively.
 
-**Selflessness and gratitude**
+####**Selflessness and gratitude**
+
 You don’t now expect favours from someone whom you helped or want to help. You become more compassionate and kind to oneself and to every living being — visible or invisible. You start wishing good for others — and even more so if they are your enemy. You will see you start developing more compassion for people who have hurt you, betrayed you.
 
-**Self-love**
+####**Self-love**
+
 Self-love is different from "selfish" love. It is the kind of love that compels you to accept yourself with all the flaws that have been eating you alive. You understand that self-hatred doesn’t do any good to yourself. Instead, you focus your energy on things which actually matters.
 
 ---
