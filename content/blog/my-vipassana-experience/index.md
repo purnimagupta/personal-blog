@@ -2,7 +2,7 @@
 title: My Vipassana experience
 date: "2020-01-11"
 description: This is my journey of meditation and how it helped me to realize the imporatnce of it and shaped some of my values and perception of the world.
-cover: ./cover.jpg
+cover: ./cover-pic.jpg
 tags: meditation, vipassana, mindfulness, gratitude
 ---
 

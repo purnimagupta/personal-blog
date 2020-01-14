@@ -15,13 +15,17 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pageContext
 
     return (
+      <>
+      <div className="custom-image">
+        <Img fluid={featuredImgFluid} />
+        <figcaption style={{textAlign: "center"}}>Photo by Lesly Juarez</figcaption>  
+      </div>
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
         <article>
-          <Img fluid={featuredImgFluid} />
           <header>
             <h1
               style={{
@@ -79,6 +83,7 @@ class BlogPostTemplate extends React.Component {
           </ul>
         </nav>
       </Layout>
+      </>
     )
   }
 }
