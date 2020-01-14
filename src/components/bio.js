@@ -58,7 +58,7 @@ const Bio = () => {
         Would love to live in a world free of hatred and jealousy. We can start with ourselves :)
         {`  `}
         <a href={`https://twitter.com/${social.twitter}`} target="_blank">
-          You can react out to me on twitter.
+          You can reach out to me on twitter.
         </a>
       </p>
     </div>
