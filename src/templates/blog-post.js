@@ -10,6 +10,7 @@ import { rhythm, scale } from "../utils/typography"
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
+    console.log(post)
     const siteTitle = this.props.data.site.siteMetadata.title
     let featuredImgFluid = post.frontmatter.cover.childImageSharp.fluid
     const { previous, next } = this.props.pageContext
@@ -18,7 +19,7 @@ class BlogPostTemplate extends React.Component {
       <>
       <div className="custom-image">
         <Img fluid={featuredImgFluid} />
-        <figcaption style={{textAlign: "center"}}>Photo by Lesly Juarez</figcaption>  
+        <figcaption style={{textAlign: "center"}}>Photo by {post.frontmatter.photoBy}</figcaption>  
       </div>
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -111,7 +112,8 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
-        }
+        },
+      photoBy
       }
     }
   }`

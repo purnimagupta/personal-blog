@@ -57,7 +57,7 @@ const Bio = () => {
         I'm <strong>{author}</strong>, a software developer and technology enthusiast. 
         Would love to live in a world free of hatred and jealousy. We can start with ourselves :)
         {`  `}
-        <a href={`https://twitter.com/${social.twitter}`} target="_blank">
+        <a href={`https://twitter.com/${social.twitter}`} target="_blank" rel="noopener noreferrer">
           You can reach out to me on twitter.
         </a>
       </p>

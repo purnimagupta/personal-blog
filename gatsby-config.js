@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Purnima's Blog`,
     author: `Purnima Gupta`,
     description: `My musings on mindfulness`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -42,6 +42,20 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          `gatsby-remark-embed-gist`
+          // {
+          //   resolve: "gatsby-remark-embed-gist",
+          //   options: {
+          //     // Optional:
+    
+          //     // the github handler whose gists are to be accessed
+          //     username: 'pooyaX14',
+    
+          //     // a flag indicating whether the github default gist css should be included or not
+          //     // default: true
+          //     includeDefaultCss: true
+          //   }
+          // }
         ],
       },
     },
@@ -73,6 +87,26 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-MRWCGMJ",
+
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
+
+        // datalayer to be set before GTM is loaded
+        // should be an object or a function that is executed in the browser
+        // Defaults to null
+        defaultDataLayer: { platform: "gatsby" },
+
+        // // Specify optional GTM environment details.
+        // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
+        // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
+        // dataLayerName: "YOUR_DATA_LAYER_NAME",
+      },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
