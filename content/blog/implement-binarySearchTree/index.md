@@ -7,6 +7,8 @@ photoBy: Frédéric Perez
 tags: data structure, bst, binary search tree, javascript algo
 ---
 
+> Also published in [The Startup](https://medium.com/swlh/implement-binary-search-tree-in-javascript-897dcbcc5616)
+
 # Table of Contents
 
 1. [What is a Binary Tree](#what-is-a-binary-tree)
