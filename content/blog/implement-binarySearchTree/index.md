@@ -73,7 +73,7 @@ Here are some examples:
 
 - ### Full/Proper/Strict Binary Tree
 
-Every node has exactly two chidren except leaf nodes. Leaf nodes have zero children.
+Every node has exactly two children except leaf nodes. Leaf nodes have zero children.
 
 ![](./full-binary-tree.png)
 
