@@ -1,5 +1,5 @@
 ---
-title: Implement Binary Search Tree in JavaScript
+title: Binary Search Trees in JavaScript
 date: "2020-04-29"
 description: We'll discuss what is binary search tree and how to implement it in javascript
 cover: ./tree.jpg

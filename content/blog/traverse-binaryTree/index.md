@@ -1,5 +1,5 @@
 ---
-title: How to traverse a tree in JavaScript
+title: How to traverse a tree using JavaScript
 date: "2020-06-04"
 description: We'll discuss methods to traverse a tree and how to implement it in javascript
 cover: ./tree.jpg

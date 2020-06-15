@@ -11,7 +11,6 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-
     return (
       <Layout location={this.props.location} title={siteTitle} cover={data.site.siteMetadata.cover}>
         <SEO title="All posts" />
@@ -31,6 +30,7 @@ class BlogIndex extends React.Component {
                   </Link>
                 </h3>
                 <small>{node.frontmatter.date}</small>
+                <small> &bull; {node.timeToRead} min read</small>
               </header>
               <section>
                 <p
@@ -59,6 +59,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
+          timeToRead
           excerpt
           fields {
             slug

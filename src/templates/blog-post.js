@@ -10,11 +10,10 @@ import { rhythm, scale } from "../utils/typography"
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    console.log(post)
     const siteTitle = this.props.data.site.siteMetadata.title
     let featuredImgFluid = post.frontmatter.cover.childImageSharp.fluid
     const { previous, next } = this.props.pageContext
-
+    console.log(post)
     return (
       <>
       <div className="custom-image">
@@ -43,7 +42,7 @@ class BlogPostTemplate extends React.Component {
                 marginBottom: rhythm(1),
               }}
             >
-              {post.frontmatter.date}
+              {post.frontmatter.date} &bull; {post.timeToRead} min read
             </p>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -115,5 +114,6 @@ export const pageQuery = graphql`
         },
       photoBy
       }
+      timeToRead
     }
   }`

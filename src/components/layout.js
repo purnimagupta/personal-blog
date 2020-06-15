@@ -5,7 +5,7 @@ import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children} = this.props
+    const { location, title, children, timeToRead} = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
